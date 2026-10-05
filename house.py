@@ -29,5 +29,21 @@ canvas.create_rectangle(170, 180, 215, 225,
 canvas.create_rectangle(285, 180, 330, 225,
                         fill="lightcyan")  # Draw the right window
 
+# Draw the sun
+canvas.create_oval(390, 30, 460, 100,
+                   fill="gold", outline="orange")
+
+#Draw the Dog House Body
+canvas.create_rectangle(50, 245, 125, 300,
+                        fill="burlywood")
+
+#Draw the Dog House Roof
+canvas.create_polygon(40, 245, 87, 210, 135, 245,
+                      fill="firebrick")
+
+#Draw the Dog House Door
+canvas.create_oval(75, 265, 100, 300,
+                        fill="black")
+
 
 root.mainloop()  # Keep the window open
